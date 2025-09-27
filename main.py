@@ -1,7 +1,7 @@
 import time
 
-import SPEITransaction as SPEITransaction
 import SPEIBlockchain as SPEIBlockchain
+import SPEITransaction as SPEITransaction
 
 
 def demo_spei_blockchain():
@@ -141,7 +141,7 @@ def demo_spei_blockchain():
         history = blockchain.get_account_history(test_clabe)
         for i, record in enumerate(history[:3], 1):  # Mostrar solo las primeras 3
             tx = record['transaction']
-            direction = "➡️  Enviado" if record['type'] == 'sent' else "⬅️  Recibido"
+            direction = " Enviado" if record['type'] == 'sent' else "  Recibido"
             counterpart = tx['receiver_clabe'] if record['type'] == 'sent' else tx['sender_clabe']
 
             print(f"   {i}. {direction} - ${tx['amount']:,.2f}")
