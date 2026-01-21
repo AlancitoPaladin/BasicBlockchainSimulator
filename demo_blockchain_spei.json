@@ -1,0 +1,107 @@
+{
+  "metadata": {
+    "created_at": "2025-09-29T20:26:34.992449",
+    "difficulty": 3,
+    "total_blocks": 3,
+    "total_transactions": 7
+  },
+  "chain": [
+    {
+      "index": 0,
+      "timestamp": "2025-09-29T20:26:32.384320",
+      "transactions": [],
+      "previous_hash": "0",
+      "hash": "dbe5f2eac9a831f27104142ba03947075724847fee07c0327729e5521e64660c",
+      "nonce": 0
+    },
+    {
+      "index": 1,
+      "timestamp": "2025-09-29T20:26:34.895659",
+      "transactions": [
+        {
+          "id": "C70237B0",
+          "sender_clabe": "012180001234567890",
+          "receiver_clabe": "002010098765432109",
+          "amount": 1500.0,
+          "reference": "Pago de servicios profesionales",
+          "tracking_number": "504551315517367181692995482255",
+          "timestamp": "2025-09-29T20:26:32.384408",
+          "status": "confirmed"
+        },
+        {
+          "id": "4FAF6E5A",
+          "sender_clabe": "002010098765432109",
+          "receiver_clabe": "014027015555555555",
+          "amount": 750.5,
+          "reference": "Transferencia familiar",
+          "tracking_number": "078527900633253879656419651038",
+          "timestamp": "2025-09-29T20:26:32.887501",
+          "status": "confirmed"
+        },
+        {
+          "id": "0FF43B6F",
+          "sender_clabe": "021180001111111118",
+          "receiver_clabe": "036180002222222229",
+          "amount": 2250.75,
+          "reference": "Pago de renta departamento",
+          "tracking_number": "165083226370621362575706908801",
+          "timestamp": "2025-09-29T20:26:33.389062",
+          "status": "confirmed"
+        },
+        {
+          "id": "94B86B3C",
+          "sender_clabe": "014027015555555555",
+          "receiver_clabe": "127180003333333330",
+          "amount": 500.0,
+          "reference": "Ahorro mensual",
+          "tracking_number": "170603454801982082518943716990",
+          "timestamp": "2025-09-29T20:26:33.894281",
+          "status": "confirmed"
+        },
+        {
+          "id": "689CD575",
+          "sender_clabe": "127180003333333330",
+          "receiver_clabe": "012180001234567890",
+          "amount": 1200.25,
+          "reference": "Pago de tarjeta de crédito",
+          "tracking_number": "883286318756402020708816836210",
+          "timestamp": "2025-09-29T20:26:34.395370",
+          "status": "confirmed"
+        }
+      ],
+      "previous_hash": "dbe5f2eac9a831f27104142ba03947075724847fee07c0327729e5521e64660c",
+      "hash": "0001ca6f9ef8e176881450137da1427df4f6a977bf5e3daa4c2db1391ddd755a",
+      "nonce": 5368
+    },
+    {
+      "index": 2,
+      "timestamp": "2025-09-29T20:26:34.972372",
+      "transactions": [
+        {
+          "id": "700788D4",
+          "sender_clabe": "036180002222222229",
+          "receiver_clabe": "021180001111111118",
+          "amount": 3500.0,
+          "reference": "Inversión en acciones",
+          "tracking_number": "720768536214908064408691391174",
+          "timestamp": "2025-09-29T20:26:34.972331",
+          "status": "confirmed"
+        },
+        {
+          "id": "375B5533",
+          "sender_clabe": "002010098765432109",
+          "receiver_clabe": "014027015555555555",
+          "amount": 825.3,
+          "reference": "Compra de materiales",
+          "tracking_number": "037983791666341713813051683271",
+          "timestamp": "2025-09-29T20:26:34.972358",
+          "status": "confirmed"
+        }
+      ],
+      "previous_hash": "0001ca6f9ef8e176881450137da1427df4f6a977bf5e3daa4c2db1391ddd755a",
+      "hash": "000dfc79a70feb5c73324f9b2670d5f3663e31f530d5285b139a38d93883adaf",
+      "nonce": 3615
+    }
+  ],
+  "pending_transactions": []
+}
